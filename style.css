@@ -23,27 +23,25 @@ header {
 	top: 30px;
 }
 
-#search ul{
-		position: absolute;
-	left:100px;
+#search ul {
+	position: absolute;
+	left: 100px;
 	top: 0px;
 }
 
-
 #search ul li {
-display: inline;
-float:right;
+	display: inline;
+	float: right;
 }
 
-#search a{
-margin-left:20px;
-	color:white;
+#search a {
+	margin-left: 20px;
+	color: white;
 	text-decoration: none;
 	font-family: Arial;
-	font-size:12px;
+	font-size: 12px;
 	font-weight: bold;
 }
-
 
 #nav {
 	position: absolute;
@@ -51,21 +49,42 @@ margin-left:20px;
 	right: 90px;
 }
 
-#nav li {
-	display: inline-block;
+#nav li{
+	display: block;
 	float: right;
-	text-decoration: none;
-	margin-right: 10px;
-	font-family: Arial;
-	color: white;
-	font-weight: bold;
-	font-size: 15px;
+	position: relative;
 }
+#nav li a {
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: bold;
+}
+#nav li a:hover {
+
+	color: blue;
+	text-decoration: underline;
+}
+#nav li ul {
+	display: none;
+	position: absolute;
+	top:20px;
+	text-decoration: none;
+	background-color: grey;
+	z-index: 1;
+}
+
+
+#nav li:hover ul {
+	display: block;
+}
+
 .li-space {
 	margin-left: 10px;
 	margin-right: 10px;
 }
-
 
 .boxes {
 	width: 293px;
@@ -97,7 +116,7 @@ margin-left:20px;
 	display: inline-block;
 	position: relative;
 	margin-left: 10px;
-	margin-bottom:70px;
+	margin-bottom: 70px;
 }
 .on-down-box h3 {
 	position: absolute;
@@ -149,7 +168,7 @@ footer {
 	background-repeat: repeat-x;
 }
 footer ul li {
-	
+
 	display: inline-block;
 	color: white;
 	font-family: Arial;
@@ -170,3 +189,4 @@ footer #white-logo {
 	top: 15px;
 	right: 920px;
 }
+
