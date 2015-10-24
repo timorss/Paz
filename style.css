@@ -1,0 +1,171 @@
+body {
+	direction: rtl;
+	text-align: right;
+	background-image: url("header_bg.png");
+	background-repeat: repeat-x;
+}
+#container {
+
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+
+	height: 106px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#logo {
+
+	position: absolute;
+	top: 30px;
+}
+
+#search ul{
+		position: absolute;
+	left:100px;
+	top: 0px;
+}
+
+
+#search ul li {
+display: inline;
+float:right;
+}
+
+#search a{
+margin-left:20px;
+	color:white;
+	text-decoration: none;
+	font-family: Arial;
+	font-size:12px;
+	font-weight: bold;
+}
+
+
+#nav {
+	position: absolute;
+	top: 50px;
+	right: 90px;
+}
+
+#nav li {
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	margin-right: 10px;
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.li-space {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.boxes {
+	width: 293px;
+	height: 355px;
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.on-box {
+	position: absolute;
+	bottom: 5px;
+	color: white;
+	background-color: grey;
+	opacity: 0.85;
+	margin: 5px;
+	margin-left: 20px;
+	font-size: 13px;
+	font-family: Arial;
+}
+
+.on-box a {
+
+	margin-right: 200px;
+	color: white;
+}
+
+.down-boxes {
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+	margin-bottom:70px;
+}
+.on-down-box h3 {
+	position: absolute;
+	top: -8px;
+	right: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: grey;
+}
+
+.on-down-box .middle-pic {
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+.on-down-box .details {
+	position: absolute;
+	bottom: 20px;
+	left: 15px;
+}
+.on-down-box .details a {
+	font-family: Arial;
+	color: #72716d;
+	font-size: 13px;
+}
+
+.on-down-box ul {
+	position: absolute;
+	top: 50px;
+	right: -20px;
+	list-style-type: none;
+}
+.on-down-box ul li {
+	color: #72716d;
+}
+.on-down-box #map {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+}
+footer {
+
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 40px;
+	background-image: url("footer_bg.png");
+	background-repeat: repeat-x;
+}
+footer ul li {
+	display: inline-block;
+	color: white;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer ul li #fb {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+footer ul {
+	position: absolute;
+	top: -4px;
+	right: 140px;
+}
+footer #white-logo {
+	position: absolute;
+	top: 15px;
+	right: 920px;
+}
